@@ -13,10 +13,8 @@ imported file:
 
 
 exported file:
-  awards.txt - all awards: 
-                           school: 3 schools with highest mean
+  awards.txt - all awards: school: 3 schools with highest mean
                            individual: 3 best students of junior/senior form
-                           
   analysis.txt - analysis result: 
                                   school: school name
                                           rank
