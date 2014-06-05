@@ -3,7 +3,7 @@ school analysis
 school name : [school_name]
 school rank : [school_rank]  // based on the mean score
 mean score  : [school_mean]
-standard deviation : [school_deviation]
+// standard deviation : [school_deviation]
 
 ...  x 30 schools
 
