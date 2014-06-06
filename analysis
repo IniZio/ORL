@@ -13,6 +13,7 @@ individual analysis
 =============                                      |
 Junior                                             |
 ======                                             |
+student id : [student_id]                          |
 student name : [student_name]                      |
 student rank  : [student_rank]    // in junior     |
 student score : [student_score]   // e.g : 14/20   |-- x 30 schools
