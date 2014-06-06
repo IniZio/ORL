@@ -5,6 +5,7 @@ school_mean : float
 
 student
 =======
+student_id : integer
 student_form : char [j/s]
 student_name : string
 student_score : integer
