@@ -13,16 +13,37 @@ class student{
     string name;
     int score;
   public:
-    
+
 };
 
+void get_brief(string path){
+    ifstream file;
+    file.open("brief_info.txt");
+    if (file.is_open()){
+
+    }
+    file.close();
+}
+
+void get_answer(string path){
+    ifstream file;
+    file.open("answer.txt");
+    if (file.is_open()){
+
+    }
+    file.close();
+}
+
 void get_answersheets(string path){
-  FILE * fp;
-  fp = fopen ("answer_sheets.txt", "r");
-  if (fp.is_open)
-  
+  ifstream file;
+  file.open("answer_sheets.txt");
+  if (file.is_open()){
+
+  }
+  file.close();
 }
 
 int main(){
+  get_answersheets;
   return 0;
 }
