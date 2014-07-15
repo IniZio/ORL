@@ -1,0 +1,25 @@
+school analysis
+===================
+school name : [school_name]
+school rank : [school_rank]  // based on the mean score
+mean score  : [school_mean]
+// standard deviation : [school_deviation]
+
+...  x 30 schools
+
+individual analysis
+===================
+[school_name]                                     -|
+=============                                      |
+Junior                                             |
+======                                             |
+student id : [student_id]                          |
+student name : [student_name]                      |
+student rank  : [student_rank]    // in junior     |
+student score : [student_score]   // e.g : 14/20   |-- x 30 schools
+                                                   |
+Senior                                             |
+======                                             |
+student name : [student_name]                      |
+student rank  : [student_rank]    // in senior     |
+student score : [student_score]   // e.g : 14/20  -|

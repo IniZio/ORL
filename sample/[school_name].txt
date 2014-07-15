@@ -1,0 +1,11 @@
+school_name  : string
+school_rank : integer
+school_mean : float
+// school_deviation : float 
+
+student
+=======
+student_id : integer
+student_form : char [j/s]
+student_name : string
+student_score : integer

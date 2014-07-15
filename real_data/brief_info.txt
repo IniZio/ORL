@@ -1,6 +1,3 @@
-school_no
-30
-
 school_names
 Spore Kill School
 Chef Of Socio School
