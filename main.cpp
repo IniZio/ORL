@@ -9,6 +9,8 @@
 #include <algorithm>
 #include <functional>
 
+#include <direct.h>
+
 using namespace std;
 
 
@@ -159,8 +161,22 @@ void gen_score(vector<int> &answers){
 void gen_rank(vector<student> &students){
      sort(students.begin(), students.end(), make_member_comparer2<greater>(&student::score));
 
-     cout << students[0].name << endl;
-     cout << students[1].name << endl;
+     for (int i = 0; i < students.size(); i++){
+        students[i].ranking = i+1;
+     }
+}
+
+void ex_analysis(){
+    mkdir("schools");
+    ofstream file;
+    for (int i = 0; i < school_names.size();i++){
+        string path = "schools/" + school_names[i] + ".txt";
+        file.open(path.c_str());
+
+        file << school_names[i];
+
+        file.close();
+    }
 }
 
 int main(){
@@ -170,6 +186,8 @@ int main(){
 
   gen_score(answers);
   gen_rank(students);
+
+  ex_analysis();
 
   return 0;
 }
