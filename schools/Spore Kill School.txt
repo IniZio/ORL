@@ -1,1 +1,8 @@
-Spore Kill School
+School analysis
+=================
+school name: Spore Kill School
+school mean: 5.75
+school rank: 4
+
+Individual analysis
+=================

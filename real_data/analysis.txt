@@ -1,8 +1,8 @@
 school analysis
 ===================
 school name : [school_name]
-school rank : [school_rank]  // based on the mean score
 mean score  : [school_mean]
+school rank : [school_rank]  // based on the mean score
 // standard deviation : [school_deviation]
 
 ...  x 30 schools
